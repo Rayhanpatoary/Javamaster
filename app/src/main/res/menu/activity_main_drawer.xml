@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_instruction"
+            android:icon="@drawable/ic_hearing_black_24dp"
+            android:title="User Instruction" />
+        <item
+            android:id="@+id/nav_codeing_Zone"
+            android:icon="@drawable/ic_code_black_24dp"
+            android:title="Coding zone" />
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@drawable/ic_child_friendly_black_24dp"
+            android:title="My Progress" />
+        <item
+            android:id="@+id/nav_about_developer"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="About Developer" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send Feedback" />
+            <item
+                android:id="@+id/nav_community"
+                android:icon="@drawable/ic_group_add_black_24dp"
+                android:title="Users Community" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="share App" />
+        </menu>
+    </item>
+
+</menu>

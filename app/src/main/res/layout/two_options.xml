@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button style="@style/Widget.AppCompat.Button"
+        android:id="@+id/button1"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin"
+         android:text="টিউটোরিয়াল "
+        android:background="@color/colordarkwhite"
+        android:textSize="40dp"/>
+    <Button style="@style/Widget.AppCompat.Button"
+        android:id="@+id/button2"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:text="কুইজ "
+        android:background="@color/colordarkwhite"
+        android:textSize="40dp"/>
+
+</LinearLayout>

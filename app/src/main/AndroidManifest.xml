@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rayhanpatoary.learnjavabangla">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/javabangla"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/javabangla"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".basic_java"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".basic_two_options"
+            android:parentActivityName=".basic_java" />
+        <activity android:name=".tutorial_and_code"
+            android:parentActivityName=".basic_two_options"/>
+    </application>
+
+</manifest>

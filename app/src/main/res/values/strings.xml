@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">জাভার মাস্টার</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">জাভার মাস্টার</string>
+    <string name="nav_header_subtitle">বাংলায় জাভা শিক্ষার এপ্লিকেশন</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">References</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="user_instruction_text">User instruction</string>
+    <string name="title_activity_tutorial_and_code">tutorial_and_code</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_developer">Hello About Developer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Progress">Hello progress fragment</string>
+</resources>

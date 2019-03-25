@@ -34,8 +34,21 @@ public class home extends Fragment {
             }
         });
 
+
+        LinearLayout item2 = getActivity().findViewById(R.id.item2);
+        item2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                start_oop_activity();
+            }
+        });
+
         super.onActivityCreated(savedInstanceState1);
     }
+
+
+
+
 
     private void set_dashboard() {
         set_item1();
@@ -98,6 +111,11 @@ public class home extends Fragment {
 
     void start_basic_java_activity(){
         Intent intent = new Intent(getContext(),basic_java.class);
+        startActivity(intent);
+    }
+
+    void start_oop_activity(){
+        Intent intent = new Intent(getContext(),oop.class);
         startActivity(intent);
     }
 

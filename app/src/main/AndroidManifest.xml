@@ -23,6 +23,9 @@
             android:name=".basic_java"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".oop"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".basic_two_options"
             android:parentActivityName=".basic_java" />
         <activity android:name=".tutorial_and_code"

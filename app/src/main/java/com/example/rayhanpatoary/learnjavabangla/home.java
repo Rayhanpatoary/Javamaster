@@ -43,6 +43,14 @@ public class home extends Fragment {
             }
         });
 
+        LinearLayout item3 = getActivity().findViewById(R.id.item3);
+        item3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                start_advance_java_activity();
+            }
+        });
+
         super.onActivityCreated(savedInstanceState1);
     }
 
@@ -119,9 +127,10 @@ public class home extends Fragment {
         startActivity(intent);
     }
 
-
-
-
+    void start_advance_java_activity(){
+        Intent intent = new Intent(getContext(),advance_java.class);
+        startActivity(intent);
+    }
 
 
 

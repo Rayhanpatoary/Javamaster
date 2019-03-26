@@ -70,6 +70,12 @@ public class advance_java extends AppCompatActivity {
             }
         });
         LinearLayout item8 = findViewById(R.id.item24);
+        item8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                start_basic_two_options_activity();
+            }
+        });
 
     }
 

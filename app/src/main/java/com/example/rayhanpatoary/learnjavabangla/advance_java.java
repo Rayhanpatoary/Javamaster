@@ -1,8 +1,10 @@
 package com.example.rayhanpatoary.learnjavabangla;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -15,6 +17,59 @@ public class advance_java extends AppCompatActivity {
         getSupportActionBar().setTitle("এডভ্যান্স জাভা");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         set_items();
+
+        LinearLayout item1 = findViewById(R.id.item17);
+        item1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                start_basic_two_options_activity();
+            }
+        });
+        LinearLayout item2 = findViewById(R.id.item18);
+        item2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                start_basic_two_options_activity();
+            }
+        });
+        LinearLayout item3 = findViewById(R.id.item19);
+        item3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                start_basic_two_options_activity();
+            }
+        });
+        LinearLayout item4 = findViewById(R.id.item20);
+        item4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                start_basic_two_options_activity();
+            }
+        });
+
+        LinearLayout item5 = findViewById(R.id.item21);
+        item5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                start_basic_two_options_activity();
+            }
+        });
+        LinearLayout item6 = findViewById(R.id.item22);
+        item6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                start_basic_two_options_activity();
+            }
+        });
+        LinearLayout item7 = findViewById(R.id.item23);
+        item7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                start_basic_two_options_activity();
+            }
+        });
+        LinearLayout item8 = findViewById(R.id.item24);
 
     }
 
@@ -115,6 +170,11 @@ public class advance_java extends AppCompatActivity {
         item6text1.setTextColor(R.color.colorblack);
         TextView item6text2 = (TextView)item6.findViewById(R.id.text2);
         item6text2.setText("নেটওয়ার্কিং প্রোগ্রামিং");
+    }
+
+    void start_basic_two_options_activity(){
+        Intent intent = new Intent(advance_java.this,basic_two_options.class);
+        startActivity(intent);
     }
 
 

@@ -221,4 +221,5 @@ public class basic_java extends AppCompatActivity {
         Intent intent = new Intent(basic_java.this,basic_two_options.class);
         startActivity(intent);
     }
+
 }
